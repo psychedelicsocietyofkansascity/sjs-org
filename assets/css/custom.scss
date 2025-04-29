@@ -1,0 +1,25 @@
+// Background and text
+body {
+  background-color: #0e0b16;
+  color: #e0d7f3;
+}
+
+// Links and buttons
+a,
+.button {
+  color: #7c4dff;
+}
+
+a:hover,
+.button:hover {
+  color: #9575cd;
+}
+
+// Alerts and messages
+.alert {
+  background-color: #f48fb1;
+}
+
+.success {
+  background-color: #81c784;
+}
