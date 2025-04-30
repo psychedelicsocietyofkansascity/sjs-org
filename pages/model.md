@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Peer Support Model"
-permalink: /peer-support/
+title: "Our Model of Care"
+permalink: /model/
 ---
 
 Our peer support model is built upon the principles of:
