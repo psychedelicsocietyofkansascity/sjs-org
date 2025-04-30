@@ -5,6 +5,8 @@ main:
     url: /about/
   - title: "Our Model"
     url: "/model/"
+  - title: "F.A.Q."
+    url: /faq/
   - title: "Events"
     url: /events/
  #   url: https://lu.ma/pskc
