@@ -1,0 +1,22 @@
+main:
+#  - title: "Home"
+#    url: /
+  - title: "About"
+    url: /about/
+  - title: "Our Model"
+    url: "/model/"
+  - title: "Events"
+    url: /events/
+ #   url: https://lu.ma/pskc
+  - title: "Volunteer"
+    url: /volunteer/
+  - title: "News"
+    url: /news/
+  - title: "Contact Us"
+    url: /contact/
+#  - title: "News"
+#    url: /news/
+ # - title: "Categories"
+ #   url: /categories/
+#  - title: "Tags"
+#    url: /tags/
