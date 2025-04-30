@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Volunteer With Us"
-permalink: /volunteers/
+permalink: /volunteer/
 ---
 
 **Want to become part of Safe Journey Sanctum?**  
