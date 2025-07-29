@@ -17,6 +17,12 @@ title: Safe Journey Sanctum
 email: info@safejourneysanctum.org
 description: >- # this means to ignore newlines until "baseurl:"
   Peer-led, compassionate support for individuals navigating nonordinary states of consciousness.
+
+# Path to the logo used in the site header. The Minimal Mistakes theme will use
+# this to render the logo in the masthead. The path should be relative to the
+# base of the site. This points to the purple lotus logo you provided.
+logo: "/assets/images/sjs-logo.png"
+
 # twitter_username: username
 github_username: psychedelicsocietyofkansascity
 minimal_mistakes_skin: dark
@@ -30,23 +36,13 @@ permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "America/Chicago"
+
 navigation:
   - scope: all
     data: navigation.yml main
+
 include:
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -65,9 +61,6 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
@@ -77,9 +70,6 @@ author:
 
 footer:
   links:
-   # - label: "Twitter"
-   #   icon: "fab fa-fw fa-twitter-square"
-   #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
@@ -115,4 +105,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-      
