@@ -17,6 +17,7 @@ title: Safe Journey Sanctum
 email: info@safejourneysanctum.org
 description: >- # this means to ignore newlines until "baseurl:"
   Compassionate, peer-support inspired by transpersonal psychology.
+logo: "/assets/images/sjslogo.png"
 # twitter_username: username
 github_username: psychedelicsocietyofkansascity
 minimal_mistakes_skin: sjs
