@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Path to the logo used in the site header. The Minimal Mistakes theme will use
 # this to render the logo in the masthead. The path should be relative to the
 # base of the site. This points to the purple lotus logo you provided.
-logo: "/assets/images/sjs-logo.png"
+logo: "/assets/images/sjslogo.png"
 
 # twitter_username: username
 github_username: psychedelicsocietyofkansascity
