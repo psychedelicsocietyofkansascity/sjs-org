@@ -1,27 +1,21 @@
-<div class="footer-logo" style="text-align: center; margin-bottom: 1rem;">
-  <img src="{{ '/assets/images/sjs-logo.png' | relative_url }}" alt="Safe Journey Sanctum logo">
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
 </div>
 
-{% if site.data.ui-text[site.locale].follow_label %}
-  {{ site.data.ui-text[site.locale].follow_label }}
-{% endif %}
-
-{% if site.footer.links %}
-  <ul class="footer-links" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 1rem;">
-  {% for link in site.footer.links %}
-    {% if link.label and link.url %}
-      <li><a href="{{ link.url }}">{{ link.label }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-{% endif %}
-
-{% unless site.atom_feed.hide %}
-  <div style="text-align: center; margin-top: 0.5rem;">
-    <a href="{{ site.atom_feed.path | default: '/feed.xml' }}">{{ site.data.ui-text[site.locale].feed_label | default: 'Feed' }}</a>
-  </div>
-{% endunless %}
-
-<p style="text-align: center; margin-top: 1rem;">
-  © {{ site.time | date: '%Y' }} {{ site.copyright | default: site.title }} is a DBA of the Heartland Transpersonal Alliance, Inc. a registered 501(c)(3) in the state of Missouri.
-</p>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a> is a DBA of the <a href="https://heartlandta.org" target="_blank" rel="noopener"><u>Heartland Transpersonal Alliance, Inc.</u></a> a registered 501(c)(3) in the state of Missouri.</div>
