@@ -4,7 +4,7 @@ title: "Welcome to Safe Journey Sanctum"
 date: 2025-04-29
 categories: news
 header:
-  overlay_image: /assets/images/welcome-banner.jpg
+  overlay_image: /assets/images/sjslogo.jpg
   overlay_filter: 0.3 # darken image for text readability
   caption: "Finding sanctuary together."
 ---
