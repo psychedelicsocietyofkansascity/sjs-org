@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Expanding Our Mission & Upcoming Events"
-date: 2025-07-30
+date: 2050-07-30
 categories: news
 header:
   overlay_image: /assets/images/abstract-home.png
