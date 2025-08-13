@@ -6,7 +6,7 @@ excerpt: "The nationwide drug contamination crisis that started with fentanyl ha
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/petition-banner.png
+  overlay_image: /assets/images/petition-banner.jpg
   actions:
     - label: "Sign The Petition"
       url: "https://chng.it/WpgprJTbqB"
