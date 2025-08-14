@@ -13,6 +13,6 @@ header:
       class: "btn btn--primary"
 ---
 
-Welcome to **Safe Journey Sanctum** — an initiative providing community based peer-support for overwhelmed individuals as well as a variety of harm reduction education & services for the Midwest region (primarily in KS and Missouri).
+Welcome to **Safe Journey Sanctum** — an organization that provides trauma-informed peer support for those in psychedelic or emotional distress. We offer harm reduction education, overdose response training, on-site drug testing, and event safety notifications—creating safer, more informed spaces for festivals, community gatherings, and beyond.
 
 [Learn More About Us](about)
