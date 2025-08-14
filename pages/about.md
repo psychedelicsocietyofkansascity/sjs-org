@@ -3,11 +3,10 @@ layout: single
 title: "About Us"
 permalink: /about/
 ---
+# About Safe Journey Sanctum
 
-![Supportive abstract](/assets/images/compassion.png)
+Safe Journey Sanctum (SJS), a project of the [Heartland Transpersonal Alliance Inc.](https://heartlandta.org) (a 501(c)(3) nonprofit in Missouri), provides trauma-informed, consent-based peer support for individuals navigating intense emotional or psychedelic experiences at festivals, concerts, and community events. We believe challenging moments can become opportunities for growth, learning, and healing.
 
-Safe Journey Sanctum (SJS) was founded to provide trauma‑informed, consent‑based peer support to individuals navigating intense emotional or psychedelic experiences at music festivals, concerts, and community events. Our mission is rooted in the belief that challenging experiences can be transformed into opportunities for learning and healing.
+Inspired by models like the Zendo Project and Harmonia Sanctuary, we create comfortable, welcoming spaces with seating, soft lighting, art supplies, and compassionate volunteers who listen without judgment—offering presence rather than advice.
 
-We draw inspiration from established psychedelic peer‑support models like the Zendo Project and Harmonia Sanctuary. These organizations demonstrate that providing comfortable, well‑lit spaces with pillows, cushions, books, art supplies and compassionate volunteers helps guests feel safe. In our sanctuaries there is always someone available to listen without judgment, offering presence rather than advice.
-
-Our vision is a world where harm‑reduction education and peer support are readily available so that individuals exploring non‑ordinary states feel resourced, supported and respected. We offer trainings, collaborate with event organizers, and share resources to make this vision a reality.
+Our work extends beyond the sanctuary. We provide harm-reduction education, overdose-response training, on-site drug testing, and event safety notifications. Through partnerships, trainings, and shared resources, we strive for a world where peer support and harm reduction are accessible wherever they’re needed.
