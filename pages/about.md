@@ -3,7 +3,6 @@ layout: single
 title: "About Us"
 permalink: /about/
 ---
-# About Safe Journey Sanctum
 
 Safe Journey Sanctum (SJS), a project of the [Heartland Transpersonal Alliance Inc.](https://heartlandta.org) (a 501(c)(3) nonprofit in Missouri), provides trauma-informed, consent-based peer support for individuals navigating intense emotional or psychedelic experiences at festivals, concerts, and community events. We believe challenging moments can become opportunities for growth, learning, and healing.
 
