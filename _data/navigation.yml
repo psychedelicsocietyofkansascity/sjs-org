@@ -7,8 +7,8 @@ main:
     url: "/model/"
   - title: "F.A.Q."
     url: /faq/
-  - title: "Events"
-    url: /events/
+#  - title: "Events"
+#    url: /events/
  #   url: https://lu.ma/pskc
   - title: "Volunteer"
     url: /volunteer/
