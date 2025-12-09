@@ -10,9 +10,6 @@ toc_sticky: true
 ## What is Safe Journey Sanctum (SJS)?
 Safe Journey Sanctum (SJS) provides trauma-informed, consent-based peer support to individuals experiencing intense emotional or psychedelic episodes at music festivals, concerts, and community events. We focus on compassion, evidence-based guidance, and honoring individual experiences in a supportive environment.
 
-{: .notice--info}
-**Nonprofit Organization:** SJS is a project of [Heartland Transpersonal Alliance Inc.](https://heartlandta.org), a registered 501(c)(3) nonprofit in Missouri.
-
 ## What services does SJS offer at events?
 At events, our core services are peer support and harm reduction supply distribution—including testing kits, info packets, and educational materials. Our trained volunteers help individuals safely navigate challenging experiences, reducing the risk of trauma and harm. Additionally, we've recently expanded to offer optional on-site drug identification services at select events.
 

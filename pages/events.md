@@ -13,20 +13,23 @@ Our team supports festivals, concerts and community gatherings across the Midwes
 
 ## Upcoming Events
 
-{: .notice--success}
+<div class="notice--success" markdown="1">
 **Monthly Integration Circle**
 *First Tuesday of every month*
 Gather with peers to share experiences and learn grounding techniques.
+</div>
 
-{: .notice--success}
+<div class="notice--success" markdown="1">
 **Harm-Reduction Training Workshop**
 *August 15, 2025*
 A half-day workshop covering trauma-informed peer support, consent, and overdose response.
+</div>
 
-{: .notice--success}
+<div class="notice--success" markdown="1">
 **Festival Outreach**
 *September 2025*
 We'll provide sanctuary services at the Heartland Music Festival. Come say hello at our tent!
+</div>
 
 For more information about upcoming events, please contact us or check back here for updates.
 

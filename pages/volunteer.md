@@ -10,12 +10,13 @@ We offer training sessions to prepare volunteers to offer grounded, compassionat
 
 [Apply to Volunteer](https://forms.gle/EEvJ4BB49RE3vY2eA){: .btn .btn--primary .btn--large}
 
-{: .notice}
+<div class="notice" markdown="1">
 **Volunteer roles include:**
 - **Peer Counselors** — Provide compassionate presence and support in sanctuary spaces
 - **Harm Reduction Educators** — Share life-saving information and distribute supplies
 - **Event Liaisons** — Coordinate with organizers and on-site teams
 - **Logistics Coordinators** — Help with setup, inventory, and operations
+</div>
 
 Our volunteers come from diverse backgrounds and contribute in many ways. 
 
