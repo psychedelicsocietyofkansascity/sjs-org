@@ -15,4 +15,4 @@ header:
 
 Welcome to **Safe Journey Sanctum** — an organization dedicated to trauma-informed peer support and harm reduction supply distribution for those in psychedelic or emotional distress. Our core offerings include compassionate peer support, harm reduction supplies (testing kits, info packets), overdose response training, and event safety notifications. We also now offer optional on-site drug testing services—creating safer, more informed spaces for festivals, community gatherings, and beyond.
 
-[Learn More About Us](about)
+[Learn More About Us](/about/){: .btn .btn--info .btn--large} [Volunteer With Us](/volunteer/){: .btn .btn--primary .btn--large}

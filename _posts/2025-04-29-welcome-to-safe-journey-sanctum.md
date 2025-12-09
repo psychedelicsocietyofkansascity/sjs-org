@@ -3,9 +3,14 @@ layout: single
 title: "Welcome to Safe Journey Sanctum"
 date: 2025-04-29
 categories: news
+tags:
+  - announcement
+  - peer-support
+  - harm-reduction
+share: true
 header:
   overlay_image: /assets/images/sjslogo.png
-  overlay_filter: 0.3 # darken image for text readability
+  overlay_filter: 0.3
   caption: "Finding sanctuary together."
 ---
 
