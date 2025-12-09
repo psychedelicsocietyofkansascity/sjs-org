@@ -5,8 +5,8 @@ permalink: /model/
 share: true
 ---
 
-{: .notice--success}
-**Our peer support model is built upon four core principles:**
+
+### **Our peer support model is built upon four core principles:**
 - **Trauma-informed care** — Understanding how past experiences shape present needs
 - **Consent-first support** — Respecting autonomy and personal boundaries
 - **Evidence-based techniques** — Drawing from proven harm-reduction practices
