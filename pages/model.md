@@ -17,4 +17,6 @@ Our sanctuaries are designed to be inviting and comfortable. Our tents are well 
 
 Volunteers at SJS are not therapists; they rely on compassion, awareness and a desire to hold space. Rather than giving advice or guiding anyone's experience, they listen and acknowledge whatever arises.
 
-We believe challenging experiences can be transformed into opportunities for learning and growth. By combining comfortable environments with compassionate presence and evidence‑based practices, our model helps individuals integrate their experiences and fosters community resilience.
+We believe challenging experiences can be transformed into opportunities for learning and growth. By combining comfortable environments with compassionate presence and evidence-based practices, our model helps individuals integrate their experiences and fosters community resilience.
+
+Beyond the sanctuary space, we provide harm reduction supplies including testing kits and educational materials, empowering individuals to make informed decisions about their health and safety.

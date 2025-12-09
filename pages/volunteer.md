@@ -4,8 +4,8 @@ title: "Volunteer With Us"
 permalink: /volunteer/
 ---
 
-**Want to become part of Safe Journey Sanctum?**  
-We offer training sessions to prepare volunteers to offer grounded, compassionate support.
+**Want to become part of Safe Journey Sanctum?**
+We offer training sessions to prepare volunteers to offer grounded, compassionate support. You don't need to be a therapist or mental health professional—compassion, awareness, and the willingness to listen are at the heart of peer support.
 
 **[Volunteer Application Form](https://forms.gle/EEvJ4BB49RE3vY2eA)**
 
@@ -15,8 +15,8 @@ Volunteer roles include:
 - Event Liaisons
 - Logistics Coordinators
 
-Our volunteers come from diverse backgrounds, and you do not need to be a therapist or mental health professional to get involved. Compassion, awareness, and the willingness to listen are at the heart of peer support. 
+Our volunteers come from diverse backgrounds and contribute in many ways. 
 
-During events, volunteers staff our sanctuaries—comfortable, well‑lit spaces equipped with pillows, cushions and creative supplies where guests can rest and express themselves. Volunteers offer presence rather than advice and know when to involve medical personnel or security if a situation requires professional intervention.
+During events, volunteers staff our sanctuaries—comfortable, well-lit spaces equipped with pillows, cushions and creative supplies where guests can rest and express themselves. Volunteers offer presence rather than advice and know when to involve medical personnel or security if a situation requires professional intervention.
 
-Besides on‑site roles, volunteers help with outreach, fundraising, training facilitation and logistics. We foster a supportive community that values continuous learning and reflection. If you are passionate about harm‑reduction and compassionate care, we invite you to apply and join us in creating sanctuary.
+Besides on-site roles, volunteers help with outreach, fundraising, training facilitation and logistics. We foster a supportive community that values continuous learning and reflection. If you are passionate about harm-reduction and compassionate care, we invite you to apply and join us in creating sanctuary.

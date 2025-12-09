@@ -11,7 +11,7 @@ header:
 
 Welcome to the online home of **Safe Journey Sanctum**.
 
-We are honored to introduce a new peer-led initiative designed to provide compassionate, trauma-informed support for individuals navigating nonordinary states of consciousness at festivals, concerts, and other live events.
+We are honored to introduce a new peer-led initiative designed to provide compassionate, trauma-informed support for individuals navigating non-ordinary states of consciousness at festivals, concerts, and other live events.
 
 Our mission is to offer safe, supportive spaces based on consent-first principles, evidence-based harm reduction practices, and a deep respect for personal journeys.
 

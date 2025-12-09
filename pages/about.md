@@ -8,4 +8,4 @@ Safe Journey Sanctum (SJS), a project of the [Heartland Transpersonal Alliance I
 
 Inspired by models like the Zendo Project and Harmonia Sanctuary, we create comfortable, welcoming spaces with seating, soft lighting, art supplies, and compassionate volunteers who listen without judgment—offering presence rather than advice.
 
-Our work extends beyond the sanctuary. We provide harm-reduction education, overdose-response training, on-site drug testing, and event safety notifications. Through partnerships, trainings, and shared resources, we strive for a world where peer support and harm reduction are accessible wherever they’re needed.
+Our work extends beyond the sanctuary. At the heart of our mission are peer support services and harm reduction supply distribution—including testing kits, info packets, and educational resources. We provide overdose-response training and event safety notifications, and we've recently expanded to offer optional on-site drug testing services. Through partnerships, trainings, and shared resources, we strive for a world where peer support and harm reduction are accessible wherever they're needed.
