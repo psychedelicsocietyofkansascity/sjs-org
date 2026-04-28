@@ -1,0 +1,68 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  text: string;
+  image?: string;
+  imageAlt?: string;
+}
+
+const { eyebrow, title, text, image, imageAlt = "" } = Astro.props;
+---
+
+<section class="page-hero">
+  <div class="container page-hero-grid">
+    <div>
+      {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+      <h1>{title}</h1>
+      <p class="lede">{text}</p>
+    </div>
+    {
+      image && (
+        <img class="page-hero-image" src={image} alt={imageAlt} loading="eager" decoding="async" />
+      )
+    }
+  </div>
+</section>
+
+<style>
+  .page-hero {
+    background:
+      radial-gradient(circle at 12% 12%, rgb(168 121 216 / 0.22), transparent 28rem),
+      linear-gradient(135deg, rgb(226 162 79 / 0.08), transparent 54%),
+      var(--linen);
+    border-bottom: 1px solid var(--line);
+    padding: 72px 0;
+  }
+
+  .page-hero-grid {
+    align-items: center;
+    display: grid;
+    gap: 44px;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+  }
+
+  .page-hero h1 {
+    margin: 12px 0 18px;
+    max-width: 840px;
+  }
+
+  .page-hero .lede {
+    max-width: 720px;
+  }
+
+  .page-hero-image {
+    aspect-ratio: 4 / 3;
+    border: 10px solid rgb(246 236 220 / 0.1);
+    border-radius: 8px;
+    box-shadow: 0 18px 60px var(--shadow);
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media (max-width: 860px) {
+    .page-hero-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
