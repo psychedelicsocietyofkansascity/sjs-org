@@ -28,11 +28,29 @@ const { eyebrow, title, text, image, imageAlt = "" } = Astro.props;
 <style>
   .page-hero {
     background:
-      radial-gradient(circle at 12% 12%, rgb(168 121 216 / 0.22), transparent 28rem),
-      linear-gradient(135deg, rgb(226 162 79 / 0.08), transparent 54%),
+      radial-gradient(circle at 12% 12%, rgb(169 112 221 / 0.18), transparent 30rem),
+      linear-gradient(135deg, rgb(242 160 68 / 0.06), transparent 54%),
       var(--linen);
     border-bottom: 1px solid var(--line);
+    overflow: hidden;
     padding: 72px 0;
+    position: relative;
+  }
+
+  .page-hero::before {
+    background: url("/assets/sjslogo.png") center / contain no-repeat;
+    content: "";
+    height: 30rem;
+    opacity: 0.03;
+    pointer-events: none;
+    position: absolute;
+    right: -10rem;
+    top: -12rem;
+    width: 30rem;
+  }
+
+  .page-hero > .container {
+    position: relative;
   }
 
   .page-hero-grid {
@@ -44,18 +62,20 @@ const { eyebrow, title, text, image, imageAlt = "" } = Astro.props;
 
   .page-hero h1 {
     margin: 12px 0 18px;
-    max-width: 840px;
+    max-width: 56rem;
   }
 
   .page-hero .lede {
-    max-width: 720px;
+    max-width: 42rem;
   }
 
   .page-hero-image {
     aspect-ratio: 4 / 3;
-    border: 10px solid rgb(246 236 220 / 0.1);
-    border-radius: 8px;
-    box-shadow: 0 18px 60px var(--shadow);
+    border: 1px solid rgb(255 242 220 / 0.16);
+    border-radius: 16px;
+    box-shadow:
+      0 20px 60px rgb(0 0 0 / 0.32),
+      0 0 0 8px rgb(169 112 221 / 0.08);
     object-fit: cover;
     width: 100%;
   }

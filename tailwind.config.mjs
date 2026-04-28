@@ -4,20 +4,33 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: "#272129",
+        ink: "#f8efe4",
+        sjs: {
+          bg: "#0b0810",
+          surface: "#17111f",
+          "surface-2": "#21182b",
+          border: "#3a2f45",
+          cream: "#fff2dc",
+          text: "#f8efe4",
+          muted: "#c9bdb1",
+          purple: "#a970dd",
+          "purple-dark": "#6d3fa3",
+          orange: "#f2a044",
+          green: "#b9d6a0"
+        },
         violet: {
-          deep: "#3d245d",
-          dusk: "#5f3a7f",
-          mist: "#eee7f4"
+          deep: "#6d3fa3",
+          dusk: "#a970dd",
+          mist: "#21182b"
         },
         sanctuary: {
-          paper: "#f8f3ea",
-          linen: "#efe5d7",
-          amber: "#d38b42",
-          sage: "#789076",
-          moss: "#405943",
+          paper: "#0b0810",
+          linen: "#17111f",
+          amber: "#f2a044",
+          sage: "#b9d6a0",
+          moss: "#b9d6a0",
           rose: "#b76455",
-          charcoal: "#272129"
+          charcoal: "#0b0810"
         }
       },
       fontFamily: {
@@ -25,7 +38,7 @@ export default {
         body: ["Source Sans 3", "Aptos", "Segoe UI", "sans-serif"]
       },
       boxShadow: {
-        soft: "0 18px 60px rgb(39 33 41 / 0.12)"
+        soft: "0 20px 60px rgb(0 0 0 / 0.25)"
       }
     }
   },
