@@ -45,8 +45,8 @@ const currentPath = Astro.url.pathname;
 <style>
   .site-header {
     backdrop-filter: blur(16px);
-    background: rgb(11 8 16 / 0.85);
-    border-bottom: 1px solid var(--line);
+    background: rgb(8 6 12 / 0.9);
+    border-bottom: 1px solid rgb(255 255 255 / 0.1);
     position: sticky;
     top: 0;
     z-index: 40;
@@ -68,10 +68,10 @@ const currentPath = Astro.url.pathname;
 
   .nav-shell {
     align-items: center;
-    display: grid;
-    gap: 22px;
-    grid-template-columns: auto 1fr auto auto;
-    min-height: 74px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    min-height: 64px;
   }
 
   .brand {
@@ -82,6 +82,7 @@ const currentPath = Astro.url.pathname;
     font-size: 1.04rem;
     font-weight: 760;
     line-height: 1;
+    min-width: 0;
     text-decoration: none;
   }
 
@@ -94,7 +95,9 @@ const currentPath = Astro.url.pathname;
     align-items: center;
     display: flex;
     gap: 6px;
+    flex: 1;
     justify-content: center;
+    min-width: 0;
   }
 
   .desktop-links a {
@@ -109,8 +112,8 @@ const currentPath = Astro.url.pathname;
 
   .desktop-links a:hover,
   .desktop-links a[aria-current="page"] {
-    background: rgb(169 112 221 / 0.1);
-    border-color: rgb(169 112 221 / 0.2);
+    background: rgb(169 112 221 / 0.15);
+    border-color: rgb(169 112 221 / 0.3);
     color: var(--violet);
   }
 
@@ -153,7 +156,7 @@ const currentPath = Astro.url.pathname;
 
   .mobile-panel {
     background: var(--surface-strong);
-    border: 1px solid var(--line);
+    border: 1px solid rgb(255 255 255 / 0.1);
     border-radius: 16px;
     box-shadow: 0 24px 80px var(--shadow);
     display: grid;
@@ -186,10 +189,6 @@ const currentPath = Astro.url.pathname;
   }
 
   @media (max-width: 980px) {
-    .nav-shell {
-      grid-template-columns: auto 1fr auto;
-    }
-
     .desktop-links,
     .nav-donate {
       display: none;
@@ -204,6 +203,7 @@ const currentPath = Astro.url.pathname;
   @media (max-width: 480px) {
     .brand span {
       max-width: 160px;
+      overflow-wrap: anywhere;
     }
   }
 </style>

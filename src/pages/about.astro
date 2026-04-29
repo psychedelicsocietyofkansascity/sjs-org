@@ -18,7 +18,7 @@ import { site } from "../data/site";
   />
 
   <section class="section">
-    <div class="container split-grid">
+    <div class="container split-grid about-mission-grid">
       <div class="prose">
         <h2>Mission</h2>
         <p>
@@ -72,3 +72,15 @@ import { site } from "../data/site";
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .about-mission-grid {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  }
+
+  @media (max-width: 900px) {
+    .about-mission-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

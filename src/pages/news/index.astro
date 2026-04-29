@@ -18,7 +18,7 @@ const posts = (await getCollection("news"))
   />
 
   <section class="section">
-    <div class="container card-grid">
+    <div class="container card-grid news-grid">
       {
         posts.map((post) => (
           <article class="surface post-card">
@@ -57,5 +57,16 @@ const posts = (await getCollection("news"))
 
   .post-card p:not(.post-meta) {
     color: var(--muted);
+  }
+
+  .news-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 56rem;
+  }
+
+  @media (max-width: 760px) {
+    .news-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

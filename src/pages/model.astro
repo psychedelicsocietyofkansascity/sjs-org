@@ -18,7 +18,7 @@ import { carePrinciples, eventServices } from "../data/site";
   />
 
   <section class="section">
-    <div class="container card-grid">
+    <div class="container card-grid model-principles">
       {
         carePrinciples.map((principle) => (
           <article class="surface service-card">
@@ -69,6 +69,10 @@ import { carePrinciples, eventServices } from "../data/site";
     border-top: 1px solid var(--line);
   }
 
+  .model-principles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .model-image {
     aspect-ratio: 4 / 3;
     border: 1px solid rgb(255 242 220 / 0.16);
@@ -78,5 +82,11 @@ import { carePrinciples, eventServices } from "../data/site";
       0 0 0 8px rgb(169 112 221 / 0.08);
     object-fit: cover;
     width: 100%;
+  }
+
+  @media (max-width: 760px) {
+    .model-principles {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

@@ -52,8 +52,9 @@ import { navItems, site } from "../data/site";
   .site-footer {
     background:
       radial-gradient(circle at 12% 0%, rgb(168 121 216 / 0.16), transparent 24rem),
-      #0b090f;
+      var(--sjs-bg);
     color: white;
+    border-top: 1px solid rgb(255 255 255 / 0.1);
     padding: 56px 0 34px;
   }
 
@@ -71,22 +72,22 @@ import { navItems, site } from "../data/site";
 
   .footer-brand img {
     background: rgb(255 255 255 / 0.08);
-    border-radius: 12px;
+    border-radius: 16px;
     height: 56px;
     padding: 6px;
     width: 56px;
   }
 
   .footer-brand h2 {
-    color: white;
-    font-size: 1.4rem;
+    color: var(--sjs-cream);
+    font-size: 1.35rem;
     margin: 0 0 8px;
   }
 
   .footer-brand p,
   .footer-contact p,
   .footer-bottom p {
-    color: rgb(255 255 255 / 0.72);
+    color: var(--muted);
   }
 
   .footer-links {
@@ -95,15 +96,22 @@ import { navItems, site } from "../data/site";
   }
 
   .site-footer a {
-    color: white;
+    color: var(--sjs-text);
+  }
+
+  .site-footer a:hover {
+    text-decoration: underline;
   }
 
   .footer-bottom {
-    border-top: 1px solid rgb(255 255 255 / 0.14);
+    border-top: 1px solid rgb(255 255 255 / 0.1);
     display: grid;
     gap: 12px;
     margin-top: 42px;
     padding-top: 24px;
+    font-size: 0.95rem;
+    line-height: 1.75;
+    max-width: 72rem;
   }
 
   @media (max-width: 840px) {

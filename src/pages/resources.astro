@@ -21,7 +21,7 @@ const supportLines = [
   />
 
   <section class="section" id="preparation">
-    <div class="container card-grid">
+    <div class="container card-grid resources-grid">
       {
         resources.map((resource) => (
           <article class="resource-card">
@@ -92,10 +92,30 @@ const supportLines = [
     color: var(--muted);
   }
 
+  .resources-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .resource-band,
   .consent-strip {
     background: var(--linen);
     border-bottom: 1px solid var(--line);
     border-top: 1px solid var(--line);
+  }
+
+  #support-lines ul {
+    color: var(--muted);
+    line-height: 1.75;
+    padding-left: 1.15rem;
+  }
+
+  #support-lines li + li {
+    margin-top: 0.55rem;
+  }
+
+  @media (max-width: 760px) {
+    .resources-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

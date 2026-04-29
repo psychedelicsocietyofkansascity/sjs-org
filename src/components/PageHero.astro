@@ -33,7 +33,7 @@ const { eyebrow, title, text, image, imageAlt = "" } = Astro.props;
       var(--linen);
     border-bottom: 1px solid var(--line);
     overflow: hidden;
-    padding: 72px 0;
+    padding: 80px 0;
     position: relative;
   }
 
@@ -62,7 +62,7 @@ const { eyebrow, title, text, image, imageAlt = "" } = Astro.props;
 
   .page-hero h1 {
     margin: 12px 0 18px;
-    max-width: 56rem;
+    max-width: 52rem;
   }
 
   .page-hero .lede {
@@ -80,9 +80,25 @@ const { eyebrow, title, text, image, imageAlt = "" } = Astro.props;
     width: 100%;
   }
 
+  @media (min-width: 768px) {
+    .page-hero {
+      padding: 96px 0;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .page-hero {
+      padding: 108px 0;
+    }
+  }
+
   @media (max-width: 860px) {
     .page-hero-grid {
       grid-template-columns: 1fr;
+    }
+
+    .page-hero::before {
+      display: none;
     }
   }
 </style>
